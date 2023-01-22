@@ -1,0 +1,15 @@
+{
+	"item": "elixirs:wize_hazel",
+	"effect_1": {
+		"effect": "minecraft:regeneration",
+		"duration": 1200
+	},
+	"effect_2": {
+		"effect": "minecraft:nausea",
+		"duration": 200
+	},
+	"effect_3": {
+		"effect": "minecraft:weakness",
+		"duration": 600
+	}
+}

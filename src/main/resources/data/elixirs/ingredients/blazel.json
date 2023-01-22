@@ -1,0 +1,15 @@
+{
+	"item": "elixirs:blazel",
+	"effect_1": {
+		"effect": "minecraft:wither",
+		"duration": 200
+	},
+	"effect_2": {
+		"effect": "minecraft:strength",
+		"duration": 1200
+	},
+	"effect_3": {
+		"effect": "minecraft:fire_resistance",
+		"duration": 2400
+	}
+}

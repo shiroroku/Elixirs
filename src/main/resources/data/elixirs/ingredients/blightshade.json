@@ -1,0 +1,15 @@
+{
+	"item": "elixirs:blightshade",
+	"effect_1": {
+		"effect": "minecraft:blindness",
+		"duration": 600
+	},
+	"effect_2": {
+		"effect": "minecraft:poision",
+		"duration": 1200
+	},
+	"effect_3": {
+		"effect": "minecraft:instant_damage",
+		"duration": 0
+	}
+}
