@@ -1,8 +1,23 @@
 pluginManagement {
-	repositories {
-		gradlePluginPortal()
-		maven { url = 'https://maven.minecraftforge.net/' }
-	}
+    repositories {
+        gradlePluginPortal()
+        maven {
+            //Forge
+            url = 'https://maven.minecraftforge.net/'
+        }
+        maven {
+            //Parchment
+            url = 'https://maven.parchmentmc.org'
+        }
+        maven {
+            //Mixin
+            url = 'https://repo.spongepowered.org/repository/maven-public/'
+        }
+    }
 }
 
-rootProject.name = 'elixirs'
+plugins {
+    id 'org.gradle.toolchains.foojay-resolver-convention' version '0.5.0'
+}
+
+rootProject.name = 'Elixirs' //Should match root directory name

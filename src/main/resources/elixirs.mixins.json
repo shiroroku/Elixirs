@@ -1,7 +1,7 @@
 {
 	"required": true,
 	"minVersion": "0.8",
-	"package": "shiroroku.elixirs.mixin",
+	"package": "shiroroku.elixirs.Mixin",
 	"compatibilityLevel": "JAVA_8",
 	"refmap": "elixirs.refmap.json",
 	"mixins": [
